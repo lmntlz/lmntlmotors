@@ -4,6 +4,7 @@
     font-family:Trebuchet MS;
 }
 
+/* delete this header section to reveal the lorem ipsum cards! */
 header{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(background3.jpg);
     height: 200vh;
@@ -56,11 +57,11 @@ ul li a:hover{
     color: black;
 }
 
-.logo img{
+/* .logo img{
     float: left;
     width:300px;
     height: auto;
-}
+} */
 
 .main{
     max-width: 1200px;
@@ -72,6 +73,7 @@ ul li a:hover{
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .title h1{
@@ -95,4 +97,18 @@ ul li a:hover{
 
 .indent{
     margin-left: 1em;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.logo{
+    height: 48px;
+padding:2px 10px;
+}
+
+.icon-bar{
+    background: rgb(238, 48, 37);
 }
